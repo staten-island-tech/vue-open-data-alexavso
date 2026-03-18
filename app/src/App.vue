@@ -1,6 +1,6 @@
 <template>
   <div>
-    <RouterLink to="/vue-lists"> Vue Lists </RouterLink>
+    <RouterLink to="/sqrl/:unique_squirrel_id"> Squirrels </RouterLink>
 
     <RouterView />
   </div>
