@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import SquirrelData from '@/views/SquirrelData.vue'
+import SquirrelColorChart from '@/components/SquirrelColorChart.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -9,6 +10,11 @@ const router = createRouter({
       name: 'squirreldata',
       component: SquirrelData,
     },
+    {
+      path: '/',
+      name: 'squirrelcolors',
+      component: SquirrelColorChart
+    }
     
   ],
 })
