@@ -14,7 +14,7 @@ const router = createRouter({
       path: '/',
       name: 'squirrelcolors',
       component: SquirrelColorChart
-    }
+    },
     
   ],
 })
